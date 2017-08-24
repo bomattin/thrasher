@@ -32,6 +32,6 @@ fn main() {
     let count: i32 = count_str.parse().unwrap();
     let ext = matches.value_of("EXTENSION").unwrap_or(".txt");
 
-    spam(PathBuf::from(directory), count, ext);
+    spam(&PathBuf::from(directory), count, ext);
 
 }
