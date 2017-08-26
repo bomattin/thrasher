@@ -7,3 +7,6 @@ authors = ["Mattingly, Bret <Bret.Mattingly@nextgearcapital.com>"]
 clap = "2.26.0"
 rayon = "0.8.2"
 rand = "0.3.16"
+data-encoding = "2.0.0-rc.1"
+crc = "1.5.0"
+png = "0.9.0"
